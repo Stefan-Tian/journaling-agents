@@ -1,0 +1,40 @@
+# Personal journal entries - contains private content
+entries/
+
+# Personal context file - contains sensitive personal information
+.claude/skills/context.md
+
+# Local Claude settings
+.claude/settings.local.json
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+
+# Editor/IDE files
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables (if added in future)
+.env
+.env.local
+.env.*.local
+
+# Node.js (if added in future)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+*.log
+logs/
