@@ -1,8 +1,7 @@
-# Writing Assistant Skill
-
-**Purpose**: Analyze journal entries for grammatical errors, provide improvement suggestions, and rewrite with enhanced literary style and eloquence.
-
-**Trigger**: `/polish` or `/writing-assistant`
+---
+name: writing-assistant
+description: Analyze grammar, style, and vocabulary in journal entries and provide polished rewrites
+---
 
 ## Instructions
 

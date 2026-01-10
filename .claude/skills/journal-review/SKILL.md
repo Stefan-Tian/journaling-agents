@@ -1,8 +1,7 @@
-# Journal Review Skill
-
-**Purpose**: Provide a comprehensive analysis of journal entries by orchestrating emotional analysis, therapeutic insights, and actionable summary.
-
-**Trigger**: `/review` or `/journal-review`
+---
+name: journal-review
+description: Comprehensive journal analysis combining emotional, therapeutic, and actionable insights
+---
 
 ## Overview
 
@@ -21,14 +20,18 @@ Think of this as your complete journaling companion—it coordinates deep analys
 When this skill is invoked:
 
 ### Step 1: Run Emotion Analysis
+
 Execute the `/emotions` skill on the current journal entry to get:
+
 - Emotion identification and Mood Meter mapping
 - Psychological insights about why emotions are present
 - Impact assessment
 - Navigation strategies
 
 ### Step 2: Run Therapy Analysis
+
 Execute the `/therapy` skill on the current journal entry to get:
+
 - Cognitive analysis (CBT)
 - Emotion regulation strategies (DBT)
 - Values exploration (ACT)
@@ -39,6 +42,7 @@ Execute the `/therapy` skill on the current journal entry to get:
 ### Step 3: Load Historical Context
 
 Before synthesizing, gather context from previous journal entries:
+
 - Look for previous `journal-review.md` files in parent directories (e.g., if reviewing `entries/2026/jan/second/`, check `entries/2026/jan/first/journal-review.md`)
 - Read the most recent 1-2 previous reviews to understand ongoing patterns
 - Note recurring themes, action items that were set, and patterns being tracked
@@ -49,19 +53,24 @@ Before synthesizing, gather context from previous journal entries:
 After receiving both analyses and reviewing historical context, create an integrated summary that includes:
 
 #### Executive Summary
+
 2-3 sentences capturing the core themes and emotional landscape
 
 #### Progress from Previous Entry (if applicable)
+
 If historical context was loaded:
+
 - Note any action items from last review that were completed or attempted
 - Identify patterns that are improving or persisting
 - Acknowledge growth areas
 - Highlight what's changed since last entry
 
 #### What Went Well 🌟
+
 Celebrate strengths, positive moments, wins, gratitude, evidence of growth
 
 Look for:
+
 - Values-aligned actions
 - Moments of self-awareness
 - Resilience or coping
@@ -70,9 +79,11 @@ Look for:
 - Progress markers
 
 #### What Was Challenging 💭
+
 Acknowledge struggles, pain points, difficulties
 
 Identify:
+
 - Emotional distress
 - Difficult situations
 - Unmet needs
@@ -84,9 +95,11 @@ Identify:
 **Cross-reference and integrate findings:**
 
 - **Emotional-Cognitive Connections**: How do the emotions identified (from emotion analysis) relate to the thought patterns identified (from therapy analysis)?
+
   - Example: "The anxiety in the Red Quadrant connects to the catastrophizing pattern identified in CBT analysis"
 
 - **Patterns Across Frameworks**: What themes emerge across both analyses?
+
   - Recurring needs, values, triggers, protective mechanisms
 
 - **Root Dynamics**: What's the deeper story when you look at emotions + thoughts + behaviors together?
@@ -100,16 +113,19 @@ Identify:
 **Synthesize and prioritize actions from both analyses:**
 
 **Immediate (Today):**
+
 - 2-3 most important actions you can take today
 - Combine regulation strategies from emotion analysis with therapeutic practices
 - Make them specific and achievable
 
 **This Week:**
+
 - 3-5 practices or experiments to try
 - Skills to practice from DBT/ACT/etc.
 - Conversations or tasks to complete
 
 **Ongoing:**
+
 - Long-term themes to explore
 - Patterns to track
 - Core beliefs or values work
@@ -117,6 +133,7 @@ Identify:
 #### Patterns to Watch 🔍
 
 Based on both analyses, what patterns are worth tracking:
+
 - Emotional patterns
 - Cognitive patterns
 - Behavioral patterns
@@ -126,12 +143,14 @@ Based on both analyses, what patterns are worth tracking:
 #### Recommended Practices 📚
 
 Specific techniques tailored to this entry:
+
 - Prioritize the most relevant practices from both analyses
 - Make them concrete and actionable
 
 #### Reflection Prompts for Next Entry
 
 3-5 questions that:
+
 - Build on today's insights
 - Explore patterns identified
 - Connect to values or growth
@@ -142,6 +161,7 @@ Specific techniques tailored to this entry:
 **IMPORTANT**: Save the complete review to a file named `journal-review.md` in the same directory as the entry being reviewed.
 
 For example:
+
 - If reviewing `entries/2026/jan/first/entry.md`, save to `entries/2026/jan/first/journal-review.md`
 - If reviewing `entries/2026/jan/second/entry.md`, save to `entries/2026/jan/second/journal-review.md`
 
@@ -151,16 +171,19 @@ Structure your synthesis as:
 # Journal Review: [Entry Date/Title]
 
 ## Executive Summary
+
 [2-3 sentences]
 
 ---
 
 ## Emotional Analysis
+
 [Complete output from /emotions skill]
 
 ---
 
 ## Therapeutic Analysis
+
 [Complete output from /therapy skill]
 
 ---
@@ -168,12 +191,15 @@ Structure your synthesis as:
 ## Comprehensive Summary
 
 ### 📈 Progress from Previous Entry
+
 [If applicable - compare with previous journal-review.md]
 
 ### 🌟 What Went Well
+
 [List with explanations]
 
 ### 💭 What Was Challenging
+
 [List with explanations]
 
 ### 💡 Key Insights
@@ -193,31 +219,37 @@ Structure your synthesis as:
 ### ✅ Action Items
 
 **Immediate (Today):**
+
 1. [Action]
 2. [Action]
 3. [Action]
 
 **This Week:**
+
 1. [Action]
 2. [Action]
 3. [Action]
 
 **Ongoing:**
+
 1. [Theme]
 2. [Pattern]
 3. [Work]
 
 ### 🔍 Patterns to Watch
+
 - [Pattern 1]
 - [Pattern 2]
 - [Pattern 3]
 
 ### 📚 Recommended Practices
+
 - [Practice 1]
 - [Practice 2]
 - [Practice 3]
 
 ### Reflection Prompts for Next Entry
+
 1. [Question]
 2. [Question]
 3. [Question]
@@ -250,6 +282,7 @@ If emotion analysis identifies "anxiety in Red Quadrant due to uncertainty" and 
 ## Related Skills
 
 This skill orchestrates:
+
 - [emotion-classifier](../emotion-classifier/SKILL.md) - Run directly with `/emotions`
 - [therapy-toolkit](../therapy-toolkit/SKILL.md) - Run directly with `/therapy`
 
@@ -258,6 +291,7 @@ You can also use those skills individually when you want just one type of analys
 ## Follow-Up
 
 After `/review`, you might:
+
 - Run `/polish` to improve writing quality of original entry
 - Focus on specific action items
 - Use reflection prompts for next entry

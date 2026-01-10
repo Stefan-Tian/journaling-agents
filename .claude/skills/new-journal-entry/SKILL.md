@@ -1,8 +1,7 @@
-# New Entry Skill
-
-**Purpose**: Automatically create a new journal entry folder with proper structure and naming based on current date and existing entries.
-
-**Trigger**: `/new-entry` or `/new` or `/new-journal-entry`
+---
+name: new-journal-entry
+description: Create a new journal entry folder with proper date-based structure and naming
+---
 
 ## Overview
 
@@ -72,8 +71,8 @@ The blank `entry.md` file will be created with a simple template:
 
 After writing, you can use:
 
-- `/polish` or `/writing-assistant` to get writing feedback and create polished version
-- `/review` or `/journal-review` to get emotional and therapeutic analysis
+- `/writing-assistant` to get writing feedback and create polished version
+- `/journal-review` to get emotional and therapeutic analysis
 
 ## Examples
 

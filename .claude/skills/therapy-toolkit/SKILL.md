@@ -1,8 +1,7 @@
-# Therapy Toolkit Skill
-
-**Purpose**: Apply evidence-based therapeutic techniques from CBT, DBT, ACT, and other proven modalities to journal entries for insight, reframing, and growth.
-
-**Trigger**: `/therapy` or `/therapy-toolkit`
+---
+name: therapy-toolkit
+description: Apply CBT, DBT, ACT, and other therapeutic techniques to journal entries for insight and growth
+---
 
 ## Overview
 
@@ -42,36 +41,42 @@ This skill functions as a therapeutic companion, applying clinical psychology te
 ## What This Skill Does
 
 ### 1. Cognitive Analysis (CBT)
+
 - Identifies automatic negative thoughts
 - Names cognitive distortions (catastrophizing, black-and-white thinking, etc.)
 - Examines evidence for and against thoughts
 - Generates balanced alternative perspectives
 
 ### 2. Emotional Regulation (DBT)
+
 - Validates emotions while encouraging skillful responses
 - Teaches distress tolerance techniques
 - Practices opposite action for unhelpful emotional urges
 - Builds mindfulness and present-moment awareness
 
 ### 3. Values Clarification (ACT)
+
 - Identifies what truly matters to you
 - Distinguishes between values and goals
 - Explores willingness to experience discomfort for values
 - Practices cognitive defusion from unhelpful thoughts
 
 ### 4. Compassionate Reframing (CFT)
+
 - Addresses harsh self-criticism
 - Cultivates self-compassion
 - Explores the function of self-protection
 - Develops a compassionate inner voice
 
 ### 5. Parts Work (IFS)
+
 - Identifies different internal voices or "parts"
 - Understands the positive intent behind each part
 - Facilitates internal dialogue and integration
 - Accesses "Self" energy (curiosity, compassion, calm)
 
 ### 6. Behavioral Activation
+
 - Creates concrete action steps
 - Builds approach rather than avoidance behaviors
 - Designs values-aligned experiments
@@ -83,6 +88,7 @@ This skill functions as a therapeutic companion, applying clinical psychology te
 ## Therapeutic Analysis of [Entry Date/Title]
 
 ### Presenting Concerns
+
 [Summary of core struggles, emotions, and situations from entry]
 
 ### Cognitive Analysis (CBT)
@@ -94,6 +100,7 @@ This skill functions as a therapeutic companion, applying clinical psychology te
 [Specific distortions with examples]
 
 **Evidence Examination:**
+
 - Evidence supporting the thought:
 - Evidence against the thought:
 - Alternative balanced perspective:
@@ -166,6 +173,7 @@ Is your current approach moving you toward or away from your values?
 [When to seek additional professional support]
 
 ### Reflection Questions
+
 [Therapeutic prompts for deeper exploration]
 ```
 
@@ -196,6 +204,7 @@ See [examples.md](examples.md) for sample therapeutic analyses.
 ## Important Note
 
 This skill is for personal growth and self-reflection, not a replacement for professional therapy. If you're experiencing:
+
 - Suicidal thoughts
 - Severe depression or anxiety
 - Trauma symptoms

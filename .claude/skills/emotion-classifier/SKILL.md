@@ -1,8 +1,7 @@
-# Emotion Classifier Skill
-
-**Purpose**: Identify, classify, and provide insights into emotions expressed in journal entries using research-backed frameworks.
-
-**Trigger**: `/emotions` or `/emotion-classifier`
+---
+name: emotion-classifier
+description: Classify and analyze emotions in journal entries using the Yale Mood Meter framework
+---
 
 ## Overview
 
@@ -26,11 +25,13 @@ This skill uses evidence-based emotion science, including Yale's Mood Meter fram
 ## What This Skill Does
 
 ### 1. Emotion Identification
+
 - Detects multiple emotions (primary and secondary)
 - Uses precise emotional vocabulary beyond basic feelings
 - Identifies emotional nuances and mixed feelings
 
 ### 2. Mood Meter Classification
+
 - Maps emotions on Yale's Mood Meter quadrants:
   - **Red Quadrant** (High Energy, Unpleasant): Angry, scared, anxious, frustrated
   - **Yellow Quadrant** (High Energy, Pleasant): Happy, excited, energized, optimistic
@@ -38,17 +39,20 @@ This skill uses evidence-based emotion science, including Yale's Mood Meter fram
   - **Blue Quadrant** (Low Energy, Unpleasant): Sad, lonely, disappointed, depleted
 
 ### 3. Psychological Insights
+
 - Explains the root causes and triggers
 - Connects emotions to needs, values, and beliefs
 - Identifies thought patterns contributing to feelings
 
 ### 4. Impact Analysis
+
 - How emotions affect your thinking (cognitive effects)
 - How emotions influence behavior and decisions
 - Physical manifestations and energy levels
 - Relational and social impacts
 
 ### 5. Navigation Strategies
+
 - Evidence-based emotion regulation techniques
 - Specific actions tailored to your situation
 - Long-term strategies for emotional well-being
@@ -62,12 +66,15 @@ The skill provides a comprehensive emotional analysis in this format:
 ## Emotional Analysis of [Entry Date/Title]
 
 ### Emotions Detected
+
 [List of specific emotions with intensity ratings]
 
 ### Mood Meter Mapping
+
 [Visual or text representation of where emotions fall on the Mood Meter]
 
 ### Psychological Insights
+
 **Why These Emotions Are Present:**
 [Deep analysis of root causes, triggers, and context]
 
@@ -100,6 +107,7 @@ The skill provides a comprehensive emotional analysis in this format:
 [Patterns to watch, deeper work to explore]
 
 ### Reflection Prompts
+
 [3-5 questions to deepen emotional understanding]
 ```
 
