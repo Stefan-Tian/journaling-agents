@@ -43,13 +43,7 @@ Month abbreviations:
 Simply run:
 
 ```
-/new-entry
-```
-
-Or with shorthand:
-
-```
-/new
+/new-journal-entry
 ```
 
 The skill will:
@@ -160,12 +154,3 @@ After writing, you can use:
 **Year changes:**
 
 - Automatically create new year directory (e.g., `entries/2027/`)
-
-## Related Skills
-
-After creating a new entry:
-
-- [writing-assistant](../writing-assistant/SKILL.md) - Polish your writing with `/polish`
-- [journal-review](../journal-review/SKILL.md) - Get comprehensive analysis with `/review`
-- [emotion-classifier](../emotion-classifier/SKILL.md) - Analyze emotions with `/emotions`
-- [therapy-toolkit](../therapy-toolkit/SKILL.md) - Get therapeutic insights with `/therapy`

@@ -7,8 +7,8 @@ description: Comprehensive journal analysis combining emotional, therapeutic, an
 
 This skill orchestrates a complete journal entry review by:
 
-1. **Running `/emotions`** (emotion-classifier skill) for emotional analysis
-2. **Running `/therapy`** (therapy-toolkit skill) for therapeutic insights
+1. **Running `/emotion-classifier`** (emotion-classifier skill) for emotional analysis
+2. **Running `/therapy-toolkit`** (therapy-toolkit skill) for therapeutic insights
 3. **Synthesizing both** into a comprehensive, actionable summary
 
 Think of this as your complete journaling companion—it coordinates deep analysis and gives you clear next steps.
@@ -21,7 +21,7 @@ When this skill is invoked:
 
 ### Step 1: Run Emotion Analysis
 
-Execute the `/emotions` skill on the current journal entry to get:
+Execute the `/emotion-classifier` skill on the current journal entry to get:
 
 - Emotion identification and Mood Meter mapping
 - Psychological insights about why emotions are present
@@ -30,7 +30,7 @@ Execute the `/emotions` skill on the current journal entry to get:
 
 ### Step 2: Run Therapy Analysis
 
-Execute the `/therapy` skill on the current journal entry to get:
+Execute the `/therapy-toolkit` skill on the current journal entry to get:
 
 - Cognitive analysis (CBT)
 - Emotion regulation strategies (DBT)
@@ -283,16 +283,16 @@ If emotion analysis identifies "anxiety in Red Quadrant due to uncertainty" and 
 
 This skill orchestrates:
 
-- [emotion-classifier](../emotion-classifier/SKILL.md) - Run directly with `/emotions`
-- [therapy-toolkit](../therapy-toolkit/SKILL.md) - Run directly with `/therapy`
+- [emotion-classifier](../emotion-classifier/SKILL.md) - Run directly with `/emotion-classifier`
+- [therapy-toolkit](../therapy-toolkit/SKILL.md) - Run directly with `/therapy-toolkit`
 
 You can also use those skills individually when you want just one type of analysis.
 
 ## Follow-Up
 
-After `/review`, you might:
+After `/journal-review`, you might:
 
-- Run `/polish` to improve writing quality of original entry
+- Run `/writing-assistant` to improve writing quality of original entry
 - Focus on specific action items
 - Use reflection prompts for next entry
 - Track patterns over time
