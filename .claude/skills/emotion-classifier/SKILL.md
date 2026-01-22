@@ -15,6 +15,14 @@ This skill uses evidence-based emotion science, including Yale's Mood Meter fram
 4. **Explain emotional impact** on thoughts, behaviors, and well-being
 5. **Offer navigation strategies** for processing and managing these emotions
 
+## Entry Selection
+
+When analyzing a journal entry:
+1. **First**, look for `entry-polished.md` in the entry folder
+2. **Only if polished doesn't exist**, fall back to `entry.md`
+
+This ensures analysis is performed on the highest-quality version of the writing.
+
 ## When to Use
 
 - After writing a journal entry to gain emotional awareness

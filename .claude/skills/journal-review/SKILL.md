@@ -15,11 +15,19 @@ This skill orchestrates a complete journal entry review by:
 
 **Important**: This skill references [../context.md](../context.md) for Stefan's personal context.
 
+## Entry Selection
+
+When analyzing a journal entry:
+1. **First**, look for `entry-polished.md` in the entry folder
+2. **Only if polished doesn't exist**, fall back to `entry.md`
+
+This ensures analysis is performed on the highest-quality version of the writing.
+
 ## Process
 
 ### Step 1: Read and Assess Content
 
-Read the journal entry and identify which domains are most relevant:
+Read the journal entry (following the entry selection priority above) and identify which domains are most relevant:
 - **Emotional content**: Always analyze (emotion-classifier)
 - **Cognitive/behavioral struggles**: Apply therapy-toolkit
 - **Relationship themes**: Apply relationship-insights

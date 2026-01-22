@@ -83,6 +83,14 @@ This skill applies Carl Jung's analytical psychology and contributions from his 
 - Honoring dark emotions, not eliminating them
 - The sacred in everyday life
 
+## Entry Selection
+
+When analyzing a journal entry:
+1. **First**, look for `entry-polished.md` in the entry folder
+2. **Only if polished doesn't exist**, fall back to `entry.md`
+
+This ensures analysis is performed on the highest-quality version of the writing.
+
 ## When to Use
 
 - Processing recurring patterns or stuck places

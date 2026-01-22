@@ -13,6 +13,7 @@ This skill applies evidence-based therapeutic techniques to help you:
 2. **Regulate difficult emotions** using DBT skills
 3. **Clarify values** and take committed action (ACT)
 4. **Develop self-compassion** and reduce self-criticism (CFT)
+5. **Address people-pleasing** and the fawn trauma response
 
 ## Core Modalities
 
@@ -22,6 +23,15 @@ This skill applies evidence-based therapeutic techniques to help you:
 | **DBT** | Emotion regulation | Overwhelm, distress, interpersonal conflict |
 | **ACT** | Values & action | Avoidance, disconnection from purpose |
 | **CFT** | Self-compassion | Self-criticism, shame, perfectionism |
+| **Fawn/People-Pleasing** | Boundaries & self-advocacy | Over-accommodating, difficulty saying no, self-abandonment |
+
+## Entry Selection
+
+When analyzing a journal entry:
+1. **First**, look for `entry-polished.md` in the entry folder
+2. **Only if polished doesn't exist**, fall back to `entry.md`
+
+This ensures analysis is performed on the highest-quality version of the writing.
 
 ## When to Use
 
@@ -30,6 +40,7 @@ This skill applies evidence-based therapeutic techniques to help you:
 - Struggling with self-criticism or shame
 - Avoiding important actions or decisions
 - Feeling disconnected from values and purpose
+- **People-pleasing patterns**: Difficulty saying no, abandoning your needs for others, chronic over-accommodation
 
 ## What This Skill Does
 
@@ -55,6 +66,12 @@ This skill applies evidence-based therapeutic techniques to help you:
 - Notice self-critical voice
 - Reframe with compassion
 - Understand protective function of criticism
+
+### Fawn Response / People-Pleasing
+- Identify people-pleasing as trauma response (not personality flaw)
+- Apply DEAR MAN and FAST skills for assertiveness
+- Build distress tolerance for others' disappointment
+- Practice boundary-setting with self-compassion
 
 ## Output Structure
 

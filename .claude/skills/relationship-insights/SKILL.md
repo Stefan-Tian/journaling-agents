@@ -123,6 +123,14 @@ Tatkin emphasizes reading your partner's face, voice, and body - tracking their 
 **Fairness vs. Sensitivity**:
 Move from "What's fair?" to "What does my partner need to feel safe?" Secure functioning prioritizes the relationship over individual scorekeeping.
 
+## Entry Selection
+
+When analyzing a journal entry:
+1. **First**, look for `entry-polished.md` in the entry folder
+2. **Only if polished doesn't exist**, fall back to `entry.md`
+
+This ensures analysis is performed on the highest-quality version of the writing.
+
 ## When to Use
 
 - Processing dating experiences or romantic interests
